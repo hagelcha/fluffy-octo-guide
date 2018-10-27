@@ -52,7 +52,9 @@ The output of the program would be true if the password (data) entered by the us
 Example output:
 
 “True: The password entered matches the one that we have on file.”
+
 or
+
 “False: The password entered doe not match the one that we have on file.”
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
