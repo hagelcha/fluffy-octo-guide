@@ -22,9 +22,13 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
   
   ** a custom data structure designed and built by your team
   
-  The custom data structure will be a hash table that salts the password input before hashing, and stores the unique salt values in the hash table for easy of comparison. The salt will be generated uniquely on a per user basis, and applied before converting the password into a hashed value. The salt may be generated based on the time the password was added, or based upon the username paired with the password.
+  The custom data structure will be a hash table that salts the password input before hashing, and stores the unique salt values in the hash table for easy of comparison. The salt will be generated uniquely on a per user basis, and applied before converting the password into a hashed value. The salt may be generated based on the time the password was added, or based upon the username paired with the password. The data structure will be scaleable to account for the natural growth in size a username-password database has for websites or services. This will be based on a load factor that, when met, will increase the size of the hash table without losing data.
+  
+  The data structure will have a method that tests the input and received values, and will return a true or false boolean value to whatever class implements it.
   
   ** comprehensive testing of individual units
+  
+  In order to comprehensively test the program, we will implement JUnit testing framework, and write tests that effectively provide for all code coverage, as we do not want buggy software being used for something as crucial as user account data storage.
   
  Caution: You are not being asked to implement this program, at least not yet. 
  We just want your group to make a proposal or pitch for your program.
