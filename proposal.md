@@ -44,7 +44,9 @@ The output would be true if the password entered by the user matches the one tha
 Example output: 
 
 Please enter your password:
+
 True: This password matches the one that we have on file.
+
 False: This password does not match the one that we have on file.
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
