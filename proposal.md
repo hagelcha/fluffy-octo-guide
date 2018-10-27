@@ -47,7 +47,13 @@ Many web services require a username and password to login, and must have some w
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
 
+The output of the program would be true if the password (data) entered by the user matches the password that is stored in the database (hash table) that is tied with their username (key), and false if it does not. 
 
+Example output:
+
+“True: The password entered matches the one that we have on file.”
+or
+“False: The password entered doe not match the one that we have on file.”
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 
