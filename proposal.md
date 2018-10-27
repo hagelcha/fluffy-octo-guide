@@ -17,9 +17,13 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 * Description of a program that has:
 
   ** a main Java program class in a file named Main.java
+  
   Main.java would be the class that actually gets the username and password input, and converts that into a format that is ready to be hashed and salted to see if the output is correct. 
+  
   ** a custom data structure designed and built by your team
-  The custom data structure will be a hash table that salts the password input before hashing, and stores the unique salt values in the hash table for easy of comparison. 
+  
+  The custom data structure will be a hash table that salts the password input before hashing, and stores the unique salt values in the hash table for easy of comparison. The salt will be generated uniquely on a per user basis, and applied before converting the password into a hashed value. The salt may be generated based on the time the password was added, or based upon the username paired with the password.
+  
   ** comprehensive testing of individual units
   
  Caution: You are not being asked to implement this program, at least not yet. 
