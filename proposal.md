@@ -29,8 +29,7 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 ## Problem Description
 
-Briefly describe a problem that your team would like to solve.  
-Describe at a high level a program that could solve that problem.
+Many web services require a username and password to login, and must have some way to store that data. A common problem is a lack of scaleable, comprehensive implementations to store not only the current database, but also continues to store more and more data as the data size increases, such as if a website grew in users. A program that could solve this would store passwords that can be mapped to the usernames, ensuring that the program knows the correct password per username, and would store many passwords. The end goal is to verify if the username and password combination matches, and to then allow/deny the user based on the output of the program, e.g. if they match or not.
 
 ## Questions to answer for Exercise #2
 
