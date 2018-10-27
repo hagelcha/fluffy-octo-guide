@@ -59,20 +59,25 @@ or
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 
+
 The input could be a string of user name and user password. 
+
 Example input: name is "Alice" and password is "123456"
 
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
+
 A user interface could include the input box for the user name and user password, and a button showing the result. When the name and password are typed in, the botton would change to "logging in" or "access denied" according to whether name and password match.
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
+
 Prompt user to enter a valid user name and password;
 Get the input values for user name and user password;
 Compare that paired name and password with existing pair of names and passwords, to see if any matches;
 After comparison, the result is shown as whether or not they match. If they match, the user will succesfully log in; otherwise, their access will be denied.
 
 Name each interface or class and briefly describe its function or purpose.
+
 UserNode class: 
 The userNode stores the key(user name), the value(user password), and the next pointer to the next userNode in the bucket(if there is only one userNode in the same position in the hashTable, the next is null). One userNode corresponds to one user to contain his or her information of name and password.
 hashTable class: 
