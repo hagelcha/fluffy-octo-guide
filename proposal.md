@@ -80,6 +80,7 @@ Name each interface or class and briefly describe its function or purpose.
 
 UserNode class: 
 The userNode stores the key(user name), the value(user password), and the next pointer to the next userNode in the bucket(if there is only one userNode in the same position in the hashTable, the next is null). One userNode corresponds to one user to contain his or her information of name and password.
+
 hashTable class: 
 The hashTable class stores a list of userNodes. It basically contructs an array and handles collisions using buckets. The array will grow in size if the loading factor indicates that the array is almost full. It helps to check that if a specific user name matches a specific user passoword by looking through the array. The result of lookup will be shown in the button.
 
