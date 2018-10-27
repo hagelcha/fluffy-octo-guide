@@ -13,18 +13,18 @@ We will discuss with our team members and decide who wants to do which task and 
 
 
 ## How will we will track progress (and follow-up) on completion of tasks
-
+Have each person confirm with the team that they completed their assigned tasks.
 
 
 ## How will will communicate difficulties with a task assigned to us
-
+We will make sure to inform everyone in the team if we are having difficulties with our task(s). We each have eachothers emails an phone number's so we have two methods of communication.
 
 
 ## How we will back up each other to ensure that deadlines are not missed
-
+We will have everyone check to ensure that every task was completed before the deadlines. 
 
 
 ## Add any other rules that your team establishes to help each other work effectively together
-
+Make sure to communicate who is working on what, to ensure that two people are not working on the same task without them knowing. 
 
 
