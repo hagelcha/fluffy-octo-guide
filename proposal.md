@@ -35,7 +35,7 @@ Many web services require a username and password to login, and must have some w
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
 
-Password Keeper 3000
+  Password Keeper 3000
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
 
