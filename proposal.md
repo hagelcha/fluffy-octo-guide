@@ -42,8 +42,8 @@ Many web services require a username and password to login, and must have some w
 The output would be true if the password entered by the user matches the one that is in the programs database (hashtable). The output would be false if the password entered by the user does not match the one that is stored in the database.
 
 Example output: 
-Please enter your password:
 
+Please enter your password:
 True: This password matches the one that we have on file.
 False: This password does not match the one that we have on file.
 
