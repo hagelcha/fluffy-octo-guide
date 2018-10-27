@@ -18,7 +18,7 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
   ** a main Java program class in a file named Main.java
   
-  Main.java would be the class that actually gets the username and password input, and converts that into a format that is ready to be hashed and salted to see if the output is correct. 
+  Main.java would be the class that actually gets the username and password input, and converts that into a format that is ready to be hashed and salted to see if the output is correct. The main class will input the the data into the data structure, and will then return a true or false message based upon the results of the comparison in the data structure.
   
   ** a custom data structure designed and built by your team
   
