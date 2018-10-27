@@ -8,11 +8,11 @@
 2. Answer these questions
    * What are the GitHub usernames and names of your team members?
        * GitHub username 1: aharron      name 1: Andrew Harron
-       * GitHub username 2:       name 2:
+       * GitHub username 2:       name 2: 
        * GitHub username 3:       name 3:
        * GitHub username 4:       name 4:
        * GitHub username 5:       name 5:
-   * When did you complete this exercise? 
+   * When did you complete this exercise? 10/27/2018
    * How long did it take your team to complete this exercise? 
 
 ## Table of Contents
