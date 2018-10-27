@@ -17,9 +17,9 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 * Description of a program that has:
 
   ** a main Java program class in a file named Main.java
-  
+  Main.java would be the class that actually gets the username and password input, and converts that into a format that is ready to be hashed and salted to see if the output is correct. 
   ** a custom data structure designed and built by your team
-  
+  The custom data structure will be a hash table that salts the password input before hashing, and stores the unique salt values in the hash table for easy of comparison. 
   ** comprehensive testing of individual units
   
  Caution: You are not being asked to implement this program, at least not yet. 
@@ -39,15 +39,7 @@ Many web services require a username and password to login, and must have some w
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
 
-The output would be true if the password entered by the user matches the one that is in the programs database (hashtable). The output would be false if the password entered by the user does not match the one that is stored in the database.
 
-Example output: 
-
-Please enter your password:
-
-True: This password matches the one that we have on file.
-
-False: This password does not match the one that we have on file.
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 
